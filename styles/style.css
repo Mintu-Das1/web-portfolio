@@ -21,9 +21,7 @@ nav{
     font-size: 45px;
     
 }
-.nav-primary{
-    color: #FD6E0A;
-}
+
 nav ul li{
     list-style: none;
     margin-right: 51px;
@@ -35,9 +33,14 @@ nav ul{
     display: flex;
     align-items: center;
 }
+
+/* Shared style */
 .dark-2{
     color: #474747;
     font-size: 20px;
+}
+.secondary-bg{
+    background-color: #FFF8F3;
 }
 .btn-primary{
     color: white;
@@ -48,7 +51,17 @@ nav ul{
     border-radius: 5px;
     border: none;
 }
-
+.nav-primary{
+    color: #FD6E0A;
+}
+.description-primary{
+    font-size: 18px;
+}
+/* main style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* Banner */
 .banner{
     display: flex;
@@ -58,7 +71,7 @@ nav ul{
 .header{
     background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
-    background-position: left top ,right bottom;
+    background-position: left top ,right bottom;  
     /* margin: 38px 0 25px 23px; */
 }
 .banner-greeting{
@@ -77,4 +90,36 @@ nav ul{
 }
 .banner-profile-pic{
     width: 585;
+}
+
+/* About */
+.about{
+    padding: 131px 156px;   
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    margin-top: 130px;
+    
+}
+.about-style{
+    background-color: #FFFFFF;
+    max-width: 857px;
+}
+.about-title{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    /* border: 1px solid black; */
+}
+.item-title{
+    font-size: 20px;
+}
+.item-description{
+    font-size: 20px;
+    font-weight: bold;
 }
